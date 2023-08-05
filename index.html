@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLICATION FORM</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+   <div class="title">application form</div>
+    <br/>
+    <form action="/action.php">
+        <div class="user-detail">
+            <span class="personal-details">personal details</span>
+            <div class="input-box">
+                <span class="details">FULL NAME</span>
+                <input type="text" placeholder=" enter your name"required>
+            </div>
+        </div>
+         <div class="user-detail">
+            <div class="input-box">
+                <span class="details">EMAIL</span>
+                <input type="text" placeholder=" enter your ename"required>
+            </div>
+        </div>
+         <div class="user-detail">
+            <div class="input-box">
+                <span class="details">PASSWORD</span>
+                <input type="password" placeholder=" enter your password"required>
+            </div>
+        </div>
+         <div class="user-detail">
+            <div class="input-box">
+                <span class="details">CONFIRM PASSWORD</span>
+                <input type="password" placeholder=" confirm your password"required>
+            </div>
+        </div>
+       <div class="user-detail">
+        <div class="input-box">
+            <span class="details">PHONE NUMBER</span>
+            <input type="text" placeholder=" enter your phone number"required>
+            </div>
+             </div>
+             <div class="user-detail">
+                <div class="input-box">
+                    <span class="details">BIRTH DATE</span>
+                    <input type="text" placeholder=" DD-MM-YY"required>
+                    </div>
+                     </div>
+                <div class="gender-details">
+                    
+                    <span class="gender-title">GENDER</span>
+                    <input type="radio" id="gendermale" name="gender" value="male" checked>
+                    <label for="gendermale">MALE</label>
+                
+                    <input type="radio" id="genderfemale" name="gender" value="female">
+                    <label for="genderfemale">FEMALE</label>
+                
+                    <input type="radio" id="genderother" name="gender" value="other">
+                    <label for="genderother">OTHER</label> 
+                </div>  
+                <hr>
+
+            <div class="occupation-details">
+                <span class="professional-details">professional details</span>
+                <span class="occupation-title">occupation</span>
+                <div class="occupation-catagory">
+                    <select name="occupation" id="occupation"  >
+                        <option value="select">SELECT</option>
+                        <option value="student">STUDENT</option>
+                        <option value="businessman">BUSINESSMAN</option>
+                        <option value="freelancer">FREELANCER</option>
+                        <option value="employee">EMPLOYEE</option>
+                    </select>
+                    </div>
+                    </div>
+                    <div class="expertise-details">
+                    
+                        <span class="expertise-title">expertise</span>
+                        <input type="radio" id="expertisedeveloper" name="expertise" value="developer" checked>
+                        <label for="expertisedeveloper">DEVELOPER</label>
+                    
+                        <input type="radio" id="expertisedesigner" name="expertise" value="designer">
+                        <label for="expertisedesigner">DESIGNER</label>
+                    
+                        <input type="radio" id="expertiseanalytical" name="expertise" value="analytical">
+                        <label for="expertiseanalytical">ANALYTICAL</label> 
+
+                        <input type="radio" id="expertiseother" name="expertise" value="other">
+                        <label for="expertiseother">OTHER</label> 
+
+                    </div>  
+                              <div class="project-detail">
+                                <div class="input box">
+                                    <span class="project-info">YOUR PROJECT INFO</span>
+                                    <textarea name="project info" placeholder="please brief about your project here" row="20" width="100%"></textarea>
+                                    
+                                </div>
+                            </div> 
+                            <div class="button">
+                                <input type="submit" value="submit">
+                            </div>  
+                            
+    
+     </form>
+</div>
+</body>
+</html>
